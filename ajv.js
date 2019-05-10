@@ -2260,4 +2260,8 @@ var L2010AAN41P = "Intergy Desktop > Setup > Individuals and Companies > Provide
 var L2010AAN42P = "Intergy Desktop > Setup > Individuals and Companies > Provider > Details  >  Billing Location"; 
 var L2010AAN43P = "Intergy Desktop > Setup > Individuals and Companies > Provider > Details  >  Billing Location"; 
 var L2010AAN44P = "Intergy Desktop > Setup > Individuals and Companies > Provider > Details  >  Billing Location"; 
+
 var L2010AAN40 = "These ANSI segments are where the Billing Provider's City/State/Zip/Country are reported."; 
+
+ var L2000AHL0 = "Indicates the beginning of a new Billing Provider sub-batch hierarchical level. The segments under it will describe a new billing provider and then there will be HL 22 segments to start each claim. There will not be another HL 20 segment until/unless another Billing Provider sub-batch of claims is present in this transmission file.";
+
