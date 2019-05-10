@@ -2250,16 +2250,14 @@ var L2310DNM1DQ8P ="If there is an NPI to report in NM109 this field will report
 var L2310DNM1DQ9 ="Supervising Provider Primary ID, the Supervising Provider NPI."
 var L2310DNM1DQ9P ="Navigation Path:  Provider Maintenance > IDs > Provider IDs tab > National Provider Identifier."
 
+var Loops = "0000|1000A|1000B|2000A|2010AA|2010AB|2000B|2010BA|2010BB|2000C|2010CA|2300|2310A|2310B|2310C|2310D|2310E|2310F|2320|2330A|2330B|2330C|2330D|2330E|2330F|2330G|2400|2410|2420A|2420B|2420C|2420D|2420E|2420F|2420G|2420H|2430|2440"
+var lineHolder = document.body
+var loops_array = Loops.split("|");
+var loopsArrayLength = loops_array.length;
+
 /*Corrections*/
 var L2010AAN41P = "Intergy Desktop > Setup > Individuals and Companies > Provider > Details  >  Billing Location"; 
 var L2010AAN42P = "Intergy Desktop > Setup > Individuals and Companies > Provider > Details  >  Billing Location"; 
 var L2010AAN43P = "Intergy Desktop > Setup > Individuals and Companies > Provider > Details  >  Billing Location"; 
 var L2010AAN44P = "Intergy Desktop > Setup > Individuals and Companies > Provider > Details  >  Billing Location"; 
 var L2010AAN40 = "These ANSI segments are where the Billing Provider's City/State/Zip/Country are reported."; 
-
-/*end corrections*/
-
-var Loops = "0000|1000A|1000B|2000A|2010AA|2010AB|2000B|2010BA|2010BB|2000C|2010CA|2300|2310A|2310B|2310C|2310D|2310E|2310F|2320|2330A|2330B|2330C|2330D|2330E|2330F|2330G|2400|2410|2420A|2420B|2420C|2420D|2420E|2420F|2420G|2420H|2430|2440"
-var lineHolder = document.body
-var loops_array = Loops.split("|");
-var loopsArrayLength = loops_array.length;
