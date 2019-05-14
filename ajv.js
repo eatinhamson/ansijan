@@ -2266,3 +2266,8 @@ var L2010AAN40 = "These ANSI segments are where the Billing Provider's City/Stat
 
  var L2000AHL0 = "Indicates the beginning of a new Billing Provider sub-batch hierarchical level. The segments under it will describe a new billing provider and then there will be HL 22 segments to start each claim. There will not be another HL 20 segment until/unless another Billing Provider sub-batch of claims is present in this transmission file.";
 
+ var L2000APRVBI0 = "This ANSI segment is used to report information about the Billing Provider’s specialty, usually the Billing Provider's Taxonomy.";
+ var L2000APRVBI1 = "01.0 Provider Code. The code reported in this ANSI field indicates the provider type for the provider who’s specialty information is being reported in the 2000A PRV segment. This will always indicate that the provider type is a Billing Provider, since this segment can only be used for reporting the Billing Provider’s specialty.";
+ var L2000APRVBI1P = "BI – This is a constant value supplied by the format. It means 'billing'"; 
+ var L2000APRVBI2P = "PXC – This is a constant value supplied by the format. It means 'Health Care Taxonomy Code."; 
+ var L2000APRVBI3P = "Intergy  > Setup  > Individuals and Companies  >  Providers  >  Specialties <br><br>Intergy  > Setup  > Individuals and Companies  >  Providers  > IDs  >  Provider IDs  >  Taxonomy (this is used when override exists on insurance)";
