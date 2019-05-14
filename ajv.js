@@ -1,3 +1,4 @@
+var currentVersion ="10"
 
 var L0000ISA0 = "Starts and identifies an interchange of functional groups and interchange-related control segments. The beginning of the Transmission file.";
 var L0000ISA0T = "<tg class='uaTag' onclick='tagClicked(this)'>this is a tag</tg>"
